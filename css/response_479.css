@@ -1,0 +1,1146 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        top: auto;
+        bottom: -51px;
+
+        height: 48px;
+        margin: 0;
+    }
+
+    .swiper-button-prev
+    {
+        left: -10px;
+    }
+
+    .swiper-button-next
+    {
+        right: -10px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+    .fancybox__content > .carousel__button.is-close
+    {
+        top: 16px;
+        right: 16px;
+
+        width: 36px;
+        height: 36px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion .accordion_item
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+
+    .accordion .accordion_item .head .title
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header .logo img
+    {
+        width: 115px;
+    }
+
+    .mob_header .logo .name
+    {
+        font-size: 8px;
+        line-height: 120%;
+    }
+
+
+    .mob_header .data
+    {
+        width: calc(100% - 135px);
+    }
+
+
+    .mob_header .email_link
+    {
+        margin-left: 13px;
+    }
+
+
+    .mob_header .time
+    {
+        margin-left: auto;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside .cart_informer
+    {
+        padding: 10px;
+    }
+
+
+    aside .checkout_submit_btn
+    {
+        line-height: 30px;
+
+        height: 32px;
+        margin-left: 0;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .agree
+    {
+        margin-left: auto;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+    .text_block h2
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .text_block b,
+    .text_block strong
+    {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+
+    .text_block ul li
+    {
+        padding-left: 20px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .slide .title
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+    .main_slider .swiper-button-prev,
+    .main_slider .swiper-button-next
+    {
+        top: 0;
+        bottom: 0;
+
+        margin: auto;
+    }
+
+
+
+    /*----------------
+        Error info
+    ----------------*/
+    .error_info .code
+    {
+        font-size: 144px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .swiper-container
+    {
+        width: calc(100% + 20px);
+        margin-right: -10px;
+        margin-left: -10px;
+        padding: 0;
+    }
+
+
+    .products .product
+    {
+        padding: 10px 10px 18px;
+    }
+
+
+    .products .product .thumb
+    {
+        height: 260px;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+
+    .products .product .compare_btn br
+    {
+        display: none;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data .item + .item
+    {
+        margin-top: 10px;
+    }
+
+
+    .contacts_info .feedback
+    {
+        width: calc(100% + 20px);
+        margin-right: -10px;
+        margin-left: -10px;
+        padding: 10px;
+    }
+
+
+    .contacts_info .addresses .item .name
+    {
+        width: 56px;
+    }
+
+    .contacts_info .addresses .item .val
+    {
+        max-width: calc(100% - 56px);
+        margin-left: 0;
+    }
+
+
+    .contacts_info .map
+    {
+        width: calc(100% + 40px);
+        height: 250px;
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+
+
+    .contacts_info .requisites .item .name
+    {
+        width: 160px;
+    }
+
+    .contacts_info .requisites .item .val
+    {
+        max-width: calc(100% - 160px);
+        margin-left: 0;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .info_block .image.mini
+    {
+        width: calc(50% - 4px);
+    }
+
+
+    .about_info .info_block .data .title
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        margin-bottom: 12px;
+    }
+
+
+
+    .about_info .stats .row
+    {
+        margin-bottom: -28px;
+        margin-left: 0;
+    }
+
+    .about_info .stats .row > *
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 28px;
+        margin-left: 0;
+    }
+
+
+    .about_info .stats .item .val
+    {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .about_info .stats .item br
+    {
+        display: none;
+    }
+
+
+    .about_info .contacts_block .item .name
+    {
+        width: 56px;
+        padding: 0;
+    }
+
+    .about_info .contacts_block .item .val
+    {
+        width: calc(100% - 56px);
+    }
+
+
+    .about_info .feedback .form
+    {
+        width: calc(100% + 20px);
+        margin-right: -10px;
+        margin-left: -10px;
+        padding: 10px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .swiper-container
+    {
+        padding: 0 16px;
+    }
+
+    .articles .swiper-button-prev,
+    .articles .swiper-button-next
+    {
+        top: 0;
+        bottom: 0;
+
+        margin: auto;
+    }
+
+    .articles .swiper-button-prev
+    {
+        margin-left: -10px;
+    }
+
+    .articles .swiper-button-next
+    {
+        margin-right: -10px;
+    }
+
+
+    .articles .slide .article
+    {
+        box-shadow: 6px 6px 10px rgba(103, 103, 103, .25);
+    }
+
+
+    .articles .list .article .thumb
+    {
+        min-height: 100px;
+    }
+
+    .articles .article .name
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+
+    /*------------------
+        Compare info
+    ------------------*/
+    .compare_info .swiper-container
+    {
+        width: calc(100% + 20px);
+        max-width: calc(100% + 20px);
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+
+
+    .compare_info .product .thumb
+    {
+        height: 160px;
+    }
+
+    .compare_info .product .name
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .compare_info .product .price
+    {
+        font-size: 16px;
+
+        margin-top: 12px;
+    }
+
+    .compare_info .product .quike_buy_btn,
+    .compare_info .product .buy_btn
+    {
+        font-size: 10px;
+
+        height: 32px;
+    }
+
+
+    .compare_info .compare_product_features > *
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .compare_info .compare_product_features > *:before
+    {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+
+
+    /*------------------------
+        LK info - Feedback
+    ------------------------*/
+    .lk_info .feedback .data
+    {
+        width: calc(100% + 20px);
+        margin-right: -10px;
+        margin-left: -10px;
+        padding: 10px;
+    }
+
+
+
+    /*----------------------
+        LK info - Orders
+    ----------------------*/
+    .lk_info .orders .order .product
+    {
+        min-height: 100px;
+        padding-left: 124px;
+    }
+
+
+    .lk_info .orders .order .product .thumb
+    {
+        width: 100px;
+        min-width: 100px;
+        height: 100px;
+    }
+
+
+    .lk_info .orders .order .product .name
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .lk_info .orders .order .product .desc
+    {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+
+    .lk_info .orders .order .product .price .val
+    {
+        font-size: 16px;
+    }
+
+    .lk_info .orders .order .product .price .exp
+    {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+
+
+    /*------------------------
+        LK info - Settings
+    ------------------------*/
+    .lk_info .settings .dates
+    {
+        width: calc(100% + 20px);
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+
+
+    .lk_info .settings .form
+    {
+        width: calc(100% + 20px);
+        margin-right: -10px;
+        margin-left: -10px;
+        padding: 10px;
+    }
+
+
+
+    /*--------------------
+        LK info - Auth
+    --------------------*/
+    .lk_info .auth .mob_btns
+    {
+        display: flex;
+    }
+
+
+    .lk_info .auth .section
+    {
+        display: none;
+    }
+
+    .lk_info .auth .section .title
+    {
+        display: none;
+    }
+
+
+    .lk_info .auth .form
+    {
+        width: calc(100% + 20px);
+        margin-right: -10px;
+        margin-left: -10px;
+        padding: 10px;
+    }
+
+    .lk_info .auth .form .agree
+    {
+        width: calc(100% - 178px);
+    }
+
+    .lk_info .auth .form .agree br
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Cart info
+    ---------------*/
+    .cart_info .product
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+        padding-right: 20px;
+        padding-left: 144px;
+    }
+
+
+    .cart_info .product .thumb
+    {
+        width: 100px;
+        min-width: 100px;
+        height: 100px;
+    }
+
+
+    .cart_info .product .name
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .cart_info .product .desc
+    {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+
+    .cart_info .product .price .val
+    {
+        font-size: 16px;
+    }
+
+    .cart_info .product .price .exp
+    {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+
+    .cart_info .product .price.total .exp
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+    .cart_info .product .delete
+    {
+        font-size: 15px;
+
+        left: 20px;
+    }
+
+
+    .cart_info .product .amount
+    {
+        right: 20px;
+    }
+
+    .cart_info .product .amount .exp
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+    .cart_info .bottom .amount
+    {
+        color: #636e7a;
+        font-size: 10px;
+        line-height: 12px;
+
+        bottom: 12px;
+    }
+
+    .cart_info .bottom .price.total
+    {
+        height: 74px;
+    }
+
+    .cart_info .bottom .price.total .exp
+    {
+        color: #636e7a;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .cart_info .bottom .price.total .val
+    {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .cart_info .bottom .clear_btn,
+    .cart_info .bottom .price.total .checkout_link
+    {
+        line-height: 30px;
+
+        height: 32px;
+    }
+
+
+
+    .cart_info .empty
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*----------------------
+        Selection tables
+    ----------------------*/
+    .selection_tables .product .thumb
+    {
+        height: 196px;
+    }
+
+
+    .selection_tables .product .features .name
+    {
+        width: calc(100% - 140px);
+
+        text-align: left;
+    }
+
+    .selection_tables .product .features .val
+    {
+        width: 140px;
+    }
+
+
+    .selection_tables .product .download
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*-----------------------------
+        Selection refrigeration
+    -----------------------------*/
+    .selection_refrigeration form > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .selection_refrigeration form .field
+    {
+        width: 100%;
+        margin-bottom: -4px;
+        margin-left: 0;
+    }
+
+    .selection_refrigeration form .field > *
+    {
+        width: 100%;
+        margin-bottom: 4px;
+        margin-left: 0;
+    }
+
+
+
+    /*-----------------------
+        Program selection
+    -----------------------*/
+    .program_selection a
+    {
+        font-size: 11px;
+        line-height: 19px;
+
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+
+    .checkout_info .steps
+    {
+        width: calc(100% + 20px);
+        margin-right: -20px;
+    }
+
+
+    .checkout_info .steps .data .info,
+    .checkout_info .steps .auth
+    {
+        padding: 20px 20px 20px 0;
+    }
+
+
+    .checkout_info .steps .order_products .product .name,
+    .checkout_info .steps .order_products .product .price
+    {
+        font-size: 18px;
+    }
+
+    .checkout_info .steps .order_products .product .amount
+    {
+        width: 64px;
+    }
+
+    .checkout_info .steps .order_products .product .price
+    {
+        width: 100px;
+    }
+
+
+    .checkout_info .steps .delivery_info .methods .row > *,
+    .checkout_info .steps .payment_info .methods .row > *
+    {
+        width: calc(50% - 16px);
+    }
+
+
+    .checkout_info .steps .form
+    {
+        width: calc(100% + 20px);
+        max-width: calc(100% + 20px);
+        margin-right: -10px;
+        margin-left: -10px;
+        padding: 10px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .images .big .slide a
+    {
+        height: 290px;
+        padding: 11px;
+    }
+
+
+    .product_info .images .thumbs .slide button
+    {
+        height: 84px;
+    }
+
+
+    .product_info .images .thumbs .swiper-button-prev,
+    .product_info .images .thumbs .swiper-button-next
+    {
+        top: 0;
+        bottom: 0;
+
+        margin: auto;
+    }
+
+
+
+    .product_info .data .buy
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+        padding: 20px;
+    }
+
+    .product_info .data .buy .price,
+    .product_info .data .buy .price_exp
+    {
+        text-align: left;
+    }
+
+
+
+    /*----------------------
+        Product features
+    ----------------------*/
+    .product_features .item
+    {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .product_features .item .name
+    {
+        width: calc(100% - 172px);
+        padding: 4px 0;
+    }
+
+    .product_features .item .val
+    {
+        color: #4e4f50;
+        font-size: 16px;
+        line-height: 24px;
+
+        width: 160px;
+    }
+
+
+
+    /*---------------------
+        Product reviews
+    ---------------------*/
+    .product_reviews .add_review_btn
+    {
+        font-size: 10px;
+        line-height: 30px;
+
+        height: 32px;
+    }
+
+
+    .product_reviews .swiper-container
+    {
+        padding: 0;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .swiper-container
+    {
+        padding: 0 16px;
+    }
+
+    .reviews .swiper-button-prev,
+    .reviews .swiper-button-next
+    {
+        top: 0;
+        bottom: 0;
+
+        margin: auto;
+    }
+
+    .reviews .swiper-button-prev
+    {
+        margin-left: -10px;
+    }
+
+    .reviews .swiper-button-next
+    {
+        margin-right: -10px;
+    }
+
+
+
+    /*---------
+        Faq
+    ---------*/
+    .faq .add_question
+    {
+        width: calc(100% + 20px);
+        margin-right: -10px;
+        margin-left: -10px;
+        padding: 10px;
+    }
+
+
+
+    /*------------------------
+        Product dimensions
+    ------------------------*/
+    .product_dimensions .swiper-container
+    {
+        padding: 0 32px;
+    }
+
+
+    .product_dimensions .swiper-button-next,
+    .product_dimensions .swiper-button-prev
+    {
+        top: 0;
+        bottom: 0;
+
+        margin: auto;
+    }
+
+
+    .product_dimensions .slide a
+    {
+        height: 290px;
+    }
+
+
+
+    /*---------------
+        Prev/Next
+    ---------------*/
+    .prev_next a.prev .info,
+    .prev_next a.next .info
+    {
+        padding: 11px;
+    }
+
+    .prev_next a .name
+    {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .prev_next a .btn
+    {
+        line-height: 28px;
+
+        height: 28px;
+        margin-top: 20px;
+    }
+
+
+
+    /*----------------------
+        Related articles
+    ----------------------*/
+    .related_articles .block_title
+    {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+
+    .related_articles .article .info
+    {
+        padding: 11px 16px;
+    }
+
+    .related_articles .article .name
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    /*--------------
+        Comments
+    --------------*/
+    .comments .add_comment
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+
+
+    /*----------------------
+        Delivery/Payment
+    ----------------------*/
+    .delivery_payment .block,
+    .delivery_payment .warning
+    {
+        width: calc(100% + 20px);
+        margin-right: -10px;
+        margin-left: -10px;
+        padding: 10px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .logo img
+    {
+        width: 115px;
+    }
+
+    footer .logo .name
+    {
+        font-size: 10px;
+
+        margin-top: 5px;
+    }
+
+
+    footer .callback_btn
+    {
+        font-size: 10px;
+    }
+
+
+    footer .socials .icon
+    {
+        width: 15px;
+        height: 15px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 24px;
+    }
+
+
+    .modal.success_modal .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    #quike_buy_modal .product .thumb
+    {
+        width: calc(100% - 146px);
+        height: 172px;
+    }
+
+
+    #quike_buy_modal .product .features .item
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #quike_buy_modal .product .features .name
+    {
+        line-height: 16px;
+
+        width: calc(100% - 156px);
+    }
+
+    #quike_buy_modal .product .features .val
+    {
+        width: 148px;
+    }
+
+
+    #quike_buy_modal .form .agree
+    {
+        width: calc(100% - 156px);
+    }
+
+    #quike_buy_modal .form .agree br
+    {
+        display: none;
+    }
+
+
+
+    #add_review_modal .form .agree
+    {
+        width: calc(100% - 122px);
+    }
+
+    #add_review_modal .form .agree br
+    {
+        display: none;
+    }
+}

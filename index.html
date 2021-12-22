@@ -1,0 +1,1835 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#1485CE">
+		<meta name="theme-color" content="#1485CE">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/ion.rangeSlider.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1567.css" media="print, (max-width: 1567px)">
+		<link rel="stylesheet" href="css/response_1439.css" media="print, (max-width: 1439px)">
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="top">
+						<div class="cont row">
+							<div class="time">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_time"></use></svg>
+								<span>Пн..Пт: 9.00-18.00</span>
+							</div>
+
+							<div class="email">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+								<a href="mailto:sales@polair-shop.ru">sales@polair-shop.ru</a>
+							</div>
+
+							<div class="phone">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+								<a href="tel:+7 800 301 33 65">+7 800 301 33 65</a>
+							</div>
+
+							<div class="socials">
+								<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow" class="youtube_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow" class="facebook_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+								</a>
+							</div>
+
+							<div class="links">
+								<div><a href="/">Новости</a></div>
+								<div><a href="/">Статьи</a></div>
+								<div><a href="/">Продукция</a></div>
+								<div><a href="/">Доставка и оплата</a></div>
+								<div><a href="/">О компании</a></div>
+								<div><a href="/">Контакты</a></div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="info">
+						<div class="cont row">
+							<a href="/" class="logo">
+								<img src="images/logo.png" alt="">
+								<div class="name">Официальный интернет-магазин</div>
+							</a>
+
+							<div class="search">
+								<form action="">
+									<input type="text" name="" value="" class="input" placeholder="Поиск товара">
+
+									<button type="submit" class="submit_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+									</button>
+
+									<div class="tips">
+										<a href="/" class="tip">Камеры шоковой заморозки</a>
+										<a href="/" class="tip">Шкафы шоковой заморозки</a>
+									</div>
+								</form>
+							</div>
+
+							<button class="callback_btn modal_btn" data-content="#callback_modal">Заказать звонок</button>
+
+							<div class="account">
+								<a href="/" class="link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+								</a>
+							</div>
+
+							<a href="/" class="cart_link active">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+								<span class="count">2</span>
+								<span>товара на</span>
+								<span class="price">22 450 ₽</span>
+							</a>
+						</div>
+					</div>
+
+
+					<div class="bottom">
+						<div class="cont">
+							<nav class="menu row">
+								<div class="item modal_cont">
+									<button class="btn mini_modal_btn" data-modal-id="#catalog_modal">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+										<span>Каталог</span>
+									</button>
+
+									<div class="mini_modal" id="catalog_modal">
+										<div class="row">
+											<div class="col">
+												<div class="category">
+													<a href="/" class="main">
+														<div class="icon">
+															<img src="images/ic_category1.png" alt="">
+														</div>
+
+														<div class="name">Холодильные шкафы</div>
+													</a>
+
+													<div class="sub">
+														<div><a href="/">Холодильные шкафы с металлической дверью</a></div>
+														<div><a href="/">Холодильные шкафы из нержавеющей стали</a></div>
+														<div><a href="/">Холодильные шкафы cо стеклянными дверьми</a></div>
+														<div><a href="/">Холодильные шкафы для вина</a></div>
+														<div><a href="/">Специализированные</a></div>
+														<div><a href="/">Холодильные шкафы для напитков</a></div>
+													</div>
+												</div>
+
+												<div class="category">
+													<a href="/" class="main">
+														<div class="icon">
+															<img src="images/ic_category2.png" alt="">
+														</div>
+
+														<div class="name">Холодильные шкафы фармацевтические</div>
+													</a>
+												</div>
+											</div>
+
+
+											<div class="col">
+												<div class="category">
+													<a href="/" class="main">
+														<div class="icon">
+															<img src="images/ic_category3.png" alt="">
+														</div>
+
+														<div class="name">Холодильные столы</div>
+													</a>
+
+													<div class="sub">
+														<div><a href="/">Среднетемпературные холодильные шкафы</a></div>
+														<div><a href="/">Столы морозильные</a></div>
+														<div><a href="/">Со стеклянными дверьми</a></div>
+														<div><a href="/">Для приготовления пиццы</a></div>
+														<div><a href="/">С выдвижными ящиками</a></div>
+														<div><a href="/">Настольные витрины</a></div>
+														<div><a href="/">С охлаждаемой столешницей</a></div>
+														<div><a href="/">Саладетты холодильные</a></div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="col">
+												<div class="category">
+													<a href="/" class="main">
+														<div class="icon">
+															<img src="images/ic_category4.png" alt="">
+														</div>
+
+														<div class="name">Тепловое оборудование</div>
+													</a>
+
+													<div class="sub">
+														<div><a href="/">Chekhov пекарская линия</a></div>
+														<div><a href="/">Gogol линия конвекционных печей</a></div>
+														<div><a href="/">Pushkin линия расстоечных шкафов</a></div>
+														<div><a href="/">Tolstoy гастрономическая линия</a></div>
+														<div><a href="/">Аксессуары</a></div>
+														<div><a href="/">Скрытые</a></div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="col">
+												<div class="category">
+													<a href="/" class="main">
+														<div class="icon">
+															<img src="images/ic_category5.png" alt="">
+														</div>
+
+														<div class="name">Холодильные машины</div>
+													</a>
+
+													<div class="sub">
+														<div><a href="/">Моноблоки</a></div>
+														<div><a href="/">Моноблоки ранцевые</a></div>
+														<div><a href="/">Моноблоки потолочные</a></div>
+														<div><a href="/">Би-Блоки</a></div>
+														<div><a href="/">Компрессорно-конденсаторные агрегаты</a></div>
+														<div><a href="/">Сплит-системы</a></div>
+														<div><a href="/">Воздухоохладители</a></div>
+														<div><a href="/">Дополнительное оборудование</a></div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="col">
+												<div class="category">
+													<a href="/" class="main">
+														<div class="icon">
+															<img src="images/ic_category6.png" alt="">
+														</div>
+
+														<div class="name">Холодильные камеры</div>
+													</a>
+
+													<div class="sub">
+														<div><a href="/">POLAIR Standard</a></div>
+														<div><a href="/">Minicella</a></div>
+														<div><a href="/">Модульные стеллажные системы</a></div>
+														<div><a href="/">Двери для холодильных камер</a></div>
+														<div><a href="/">Дополнительное оборудование</a></div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="col">
+												<div class="category">
+													<a href="/" class="main">
+														<div class="icon">
+															<img src="images/ic_category7.png" alt="">
+														</div>
+
+														<div class="name">Морозильные лари</div>
+													</a>
+
+													<div class="sub">
+														<div><a href="/">POLAIR Standard с плоскими стеклами</a></div>
+														<div><a href="/">POLAIR Standard с изогнутыми стеклами</a></div>
+														<div><a href="/">POLAIR Standard с глухими крышками</a></div>
+													</div>
+												</div>
+
+												<div class="category">
+													<a href="/" class="main">
+														<div class="icon">
+															<img src="images/ic_category8.png" alt="">
+														</div>
+
+														<div class="name">Магазиностроение</div>
+													</a>
+
+													<div class="sub">
+														<div><a href="/">Бонеты морозильные</a></div>
+														<div><a href="/">Пристенные морозильные стеллажи</a></div>
+														<div><a href="/">Пристенные охлаждаемые стеллажи STRETTO Plug-In</a></div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="col">
+												<div class="category">
+													<a href="/" class="main">
+														<div class="icon">
+															<img src="images/ic_category9.png" alt="">
+														</div>
+
+														<div class="name">Камеры шоковой заморозки</div>
+													</a>
+												</div>
+
+												<div class="category">
+													<a href="/" class="main">
+														<div class="icon">
+															<img src="images/ic_category10.png" alt="">
+														</div>
+
+														<div class="name">Шкафы шоковой заморозки</div>
+													</a>
+												</div>
+
+												<div class="category">
+													<a href="/" class="main">
+														<div class="icon">
+															<img src="images/ic_category11.png" alt="">
+														</div>
+
+														<div class="name">Запчасти</div>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="sep"></div>
+
+								<div class="item">
+									<a href="/">Холодильные шкафы</a>
+								</div>
+
+								<div class="sep"></div>
+
+								<div class="item">
+									<a href="/">Холодильные шкафы фармацевтические</a>
+								</div>
+
+								<div class="sep"></div>
+
+								<div class="item">
+									<a href="/">Холодильные столы</a>
+								</div>
+
+								<div class="sep"></div>
+
+								<div class="item">
+									<a href="/">Тепловое оборудование</a>
+								</div>
+
+								<div class="sep"></div>
+
+								<div class="item">
+									<a href="/">Холодильные машины</a>
+								</div>
+
+								<div class="sep"></div>
+
+								<div class="item">
+									<a href="/">Холодильные камеры</a>
+								</div>
+
+								<div class="sep"></div>
+
+								<div class="item">
+									<a href="/">Морозильные лари</a>
+								</div>
+
+								<div class="sep"></div>
+
+								<div class="item">
+									<a href="/">Магазиностроение</a>
+								</div>
+
+								<div class="sep"></div>
+
+								<div class="item">
+									<a href="/">Камеры шоковой заморозки</a>
+								</div>
+
+								<div class="sep"></div>
+
+								<div class="item">
+									<a href="/">Шкафы шоковой заморозки</a>
+								</div>
+
+								<div class="sep"></div>
+
+								<div class="item">
+									<a href="/">Запчасти</a>
+								</div>
+
+								<div class="sep"></div>
+							</nav>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="cont row">
+						<a href="/" class="logo">
+							<img src="images/logo.png" alt="">
+							<div class="name">Официальный интернет-<br>магазин</div>
+						</a>
+
+						<div class="data">
+							<a href="tel:+78003013365" class="phone_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+							</a>
+
+							<a href="mailto:sales@polair-shop.ru" class="email_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+							</a>
+
+							<div class="time">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_time"></use></svg>
+								<span>Пн..Пт: 9.00-18.00</span>
+							</div>
+
+							<div class="search">
+								<form action="">
+									<input type="text" name="" value="" class="input" placeholder="Поиск товара">
+
+									<button type="submit" class="submit_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+									</button>
+								</form>
+							</div>
+						</div>
+
+						<div class="menu">
+							<div class="item">
+								<a href="/">Холодильные шкафы</a>
+							</div>
+
+							<div class="sep"></div>
+
+							<div class="item">
+								<a href="/">Холодильные шкафы фармацевтические</a>
+							</div>
+
+							<div class="sep"></div>
+
+							<div class="item">
+								<a href="/">Холодильные столы</a>
+							</div>
+
+							<div class="sep"></div>
+
+							<div class="item">
+								<a href="/">Тепловое оборудование</a>
+							</div>
+
+							<div class="sep"></div>
+
+							<div class="item">
+								<a href="/">Холодильные машины</a>
+							</div>
+
+							<div class="sep"></div>
+
+							<div class="item">
+								<a href="/">Холодильные камеры</a>
+							</div>
+
+							<div class="sep"></div>
+
+							<div class="item">
+								<a href="/">Морозильные лари</a>
+							</div>
+
+							<div class="sep"></div>
+
+							<div class="item">
+								<a href="/">Магазиностроение</a>
+							</div>
+
+							<div class="sep"></div>
+
+							<div class="item">
+								<a href="/">Камеры шоковой заморозки</a>
+							</div>
+
+							<div class="sep"></div>
+
+							<div class="item">
+								<a href="/">Шкафы шоковой заморозки</a>
+							</div>
+
+							<div class="sep"></div>
+
+							<div class="item">
+								<a href="/">Запчасти</a>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="main_slider">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="slide swiper-slide">
+								<div class="cont">
+									<div class="info">
+										<div class="title">Мобильные тележки LOAD.ME.KITCHEN для подносов</div>
+
+										<div class="desc">Элегантный дизайн и широкий ассортимент стандартных размеров!</div>
+
+										<a href="/" class="link">Подробнее</a>
+									</div>
+								</div>
+
+								<div class="bg lozad" data-background-image="images/tmp/main_slider_img.jpg"></div>
+							</div>
+
+							<div class="slide swiper-slide">
+								<div class="cont">
+									<div class="info">
+										<div class="title">Мобильные тележки LOAD.ME.KITCHEN для подносов</div>
+
+										<div class="desc">Элегантный дизайн и широкий ассортимент стандартных размеров!</div>
+
+										<a href="/" class="link">Подробнее</a>
+									</div>
+								</div>
+
+								<div class="bg lozad" data-background-image="images/tmp/main_slider_img.jpg"></div>
+							</div>
+
+							<div class="slide swiper-slide">
+								<div class="cont">
+									<div class="info">
+										<div class="title">Мобильные тележки LOAD.ME.KITCHEN для подносов</div>
+
+										<div class="desc">Элегантный дизайн и широкий ассортимент стандартных размеров!</div>
+
+										<a href="/" class="link">Подробнее</a>
+									</div>
+								</div>
+
+								<div class="bg lozad" data-background-image="images/tmp/main_slider_img.jpg"></div>
+							</div>
+
+							<div class="slide swiper-slide">
+								<div class="cont">
+									<div class="info">
+										<div class="title">Мобильные тележки LOAD.ME.KITCHEN для подносов</div>
+
+										<div class="desc">Элегантный дизайн и широкий ассортимент стандартных размеров!</div>
+
+										<a href="/" class="link">Подробнее</a>
+									</div>
+								</div>
+
+								<div class="bg lozad" data-background-image="images/tmp/main_slider_img.jpg"></div>
+							</div>
+
+							<div class="slide swiper-slide">
+								<div class="cont">
+									<div class="info">
+										<div class="title">Мобильные тележки LOAD.ME.KITCHEN для подносов</div>
+
+										<div class="desc">Элегантный дизайн и широкий ассортимент стандартных размеров!</div>
+
+										<a href="/" class="link">Подробнее</a>
+									</div>
+								</div>
+
+								<div class="bg lozad" data-background-image="images/tmp/main_slider_img.jpg"></div>
+							</div>
+						</div>
+
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+
+						<div class="swiper-pagination"></div>
+					</div>
+				</section>
+
+
+				<section class="products block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">Новинки</div>
+						</div>
+
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="slide swiper-slide">
+									<div class="product">
+										<a href="/" class="thumb">
+											<img data-src="images/tmp/product_thumb.png" alt="" class="lozad">
+										</a>
+
+										<div class="info">
+											<div class="product_name">
+												<a href="/">CM105-S</a>
+											</div>
+
+											<div class="features">
+												<div>
+													<div class="name">Габаритные размеры внешнего блока, мм</div>
+													<div class="val">715*420*284</div>
+												</div>
+
+												<div>
+													<div class="name">Габаритные размеры внутреннего блока, мм</div>
+													<div class="val">754*315*600</div>
+												</div>
+											</div>
+
+											<div class="buy">
+												<div class="price">50 235 ₽</div>
+
+												<div class="amount">
+													<button type="button" class="minus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+													</button>
+
+													<input type="text" value="1" class="input"
+													  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+													<button type="button" class="plus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+													</button>
+												</div>
+
+												<button class="compare_btn modal_btn" data-content="#compare_modal">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+													<span>Добавить к<br> сравнению</span>
+												</button>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="product">
+										<a href="/" class="thumb">
+											<img data-src="images/tmp/product_thumb.png" alt="" class="lozad">
+										</a>
+
+										<div class="info">
+											<div class="product_name">
+												<a href="/">CM105-S</a>
+											</div>
+
+											<div class="features">
+												<div>
+													<div class="name">Габаритные размеры внешнего блока, мм</div>
+													<div class="val">715*420*284</div>
+												</div>
+
+												<div>
+													<div class="name">Габаритные размеры внутреннего блока, мм</div>
+													<div class="val">754*315*600</div>
+												</div>
+											</div>
+
+											<div class="buy">
+												<div class="price">50 235 ₽</div>
+
+												<div class="amount">
+													<button type="button" class="minus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+													</button>
+
+													<input type="text" value="1" class="input"
+													  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+													<button type="button" class="plus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+													</button>
+												</div>
+
+												<button class="compare_btn modal_btn" data-content="#compare_modal">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+													<span>Добавить к<br> сравнению</span>
+												</button>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="product">
+										<a href="/" class="thumb">
+											<img data-src="images/tmp/product_thumb.png" alt="" class="lozad">
+										</a>
+
+										<div class="info">
+											<div class="product_name">
+												<a href="/">CM105-S</a>
+											</div>
+
+											<div class="features">
+												<div>
+													<div class="name">Габаритные размеры внешнего блока, мм</div>
+													<div class="val">715*420*284</div>
+												</div>
+
+												<div>
+													<div class="name">Габаритные размеры внутреннего блока, мм</div>
+													<div class="val">754*315*600</div>
+												</div>
+											</div>
+
+											<div class="buy">
+												<div class="price">50 235 ₽</div>
+
+												<div class="amount">
+													<button type="button" class="minus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+													</button>
+
+													<input type="text" value="1" class="input"
+													  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+													<button type="button" class="plus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+													</button>
+												</div>
+
+												<button class="compare_btn modal_btn" data-content="#compare_modal">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+													<span>Добавить к<br> сравнению</span>
+												</button>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="product">
+										<a href="/" class="thumb">
+											<img data-src="images/tmp/product_thumb.png" alt="" class="lozad">
+										</a>
+
+										<div class="info">
+											<div class="product_name">
+												<a href="/">CM105-S</a>
+											</div>
+
+											<div class="features">
+												<div>
+													<div class="name">Габаритные размеры внешнего блока, мм</div>
+													<div class="val">715*420*284</div>
+												</div>
+
+												<div>
+													<div class="name">Габаритные размеры внутреннего блока, мм</div>
+													<div class="val">754*315*600</div>
+												</div>
+											</div>
+
+											<div class="buy">
+												<div class="price">50 235 ₽</div>
+
+												<div class="amount">
+													<button type="button" class="minus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+													</button>
+
+													<input type="text" value="1" class="input"
+													  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+													<button type="button" class="plus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+													</button>
+												</div>
+
+												<button class="compare_btn modal_btn" data-content="#compare_modal">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+													<span>Добавить к<br> сравнению</span>
+												</button>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="product">
+										<a href="/" class="thumb">
+											<img data-src="images/tmp/product_thumb.png" alt="" class="lozad">
+										</a>
+
+										<div class="info">
+											<div class="product_name">
+												<a href="/">CM105-S</a>
+											</div>
+
+											<div class="features">
+												<div>
+													<div class="name">Габаритные размеры внешнего блока, мм</div>
+													<div class="val">715*420*284</div>
+												</div>
+
+												<div>
+													<div class="name">Габаритные размеры внутреннего блока, мм</div>
+													<div class="val">754*315*600</div>
+												</div>
+											</div>
+
+											<div class="buy">
+												<div class="price">50 235 ₽</div>
+
+												<div class="amount">
+													<button type="button" class="minus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+													</button>
+
+													<input type="text" value="1" class="input"
+													  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+													<button type="button" class="plus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+													</button>
+												</div>
+
+												<button class="compare_btn modal_btn" data-content="#compare_modal">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+													<span>Добавить к<br> сравнению</span>
+												</button>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="product">
+										<a href="/" class="thumb">
+											<img data-src="images/tmp/product_thumb.png" alt="" class="lozad">
+										</a>
+
+										<div class="info">
+											<div class="product_name">
+												<a href="/">CM105-S</a>
+											</div>
+
+											<div class="features">
+												<div>
+													<div class="name">Габаритные размеры внешнего блока, мм</div>
+													<div class="val">715*420*284</div>
+												</div>
+
+												<div>
+													<div class="name">Габаритные размеры внутреннего блока, мм</div>
+													<div class="val">754*315*600</div>
+												</div>
+											</div>
+
+											<div class="buy">
+												<div class="price">50 235 ₽</div>
+
+												<div class="amount">
+													<button type="button" class="minus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+													</button>
+
+													<input type="text" value="1" class="input"
+													  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+													<button type="button" class="plus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+													</button>
+												</div>
+
+												<button class="compare_btn modal_btn" data-content="#compare_modal">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+													<span>Добавить к<br> сравнению</span>
+												</button>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="products block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">Хиты продаж</div>
+						</div>
+
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="slide swiper-slide">
+									<div class="product">
+										<a href="/" class="thumb">
+											<img data-src="images/tmp/product_thumb.png" alt="" class="lozad">
+										</a>
+
+										<div class="info">
+											<div class="product_name">
+												<a href="/">CM105-S</a>
+											</div>
+
+											<div class="features">
+												<div>
+													<div class="name">Габаритные размеры внешнего блока, мм</div>
+													<div class="val">715*420*284</div>
+												</div>
+
+												<div>
+													<div class="name">Габаритные размеры внутреннего блока, мм</div>
+													<div class="val">754*315*600</div>
+												</div>
+											</div>
+
+											<div class="buy">
+												<div class="price">50 235 ₽</div>
+
+												<div class="amount">
+													<button type="button" class="minus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+													</button>
+
+													<input type="text" value="1" class="input"
+													  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+													<button type="button" class="plus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+													</button>
+												</div>
+
+												<button class="compare_btn modal_btn" data-content="#compare_modal">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+													<span>Добавить к<br> сравнению</span>
+												</button>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="product">
+										<a href="/" class="thumb">
+											<img data-src="images/tmp/product_thumb.png" alt="" class="lozad">
+										</a>
+
+										<div class="info">
+											<div class="product_name">
+												<a href="/">CM105-S</a>
+											</div>
+
+											<div class="features">
+												<div>
+													<div class="name">Габаритные размеры внешнего блока, мм</div>
+													<div class="val">715*420*284</div>
+												</div>
+
+												<div>
+													<div class="name">Габаритные размеры внутреннего блока, мм</div>
+													<div class="val">754*315*600</div>
+												</div>
+											</div>
+
+											<div class="buy">
+												<div class="price">50 235 ₽</div>
+
+												<div class="amount">
+													<button type="button" class="minus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+													</button>
+
+													<input type="text" value="1" class="input"
+													  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+													<button type="button" class="plus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+													</button>
+												</div>
+
+												<button class="compare_btn modal_btn" data-content="#compare_modal">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+													<span>Добавить к<br> сравнению</span>
+												</button>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="product">
+										<a href="/" class="thumb">
+											<img data-src="images/tmp/product_thumb.png" alt="" class="lozad">
+										</a>
+
+										<div class="info">
+											<div class="product_name">
+												<a href="/">CM105-S</a>
+											</div>
+
+											<div class="features">
+												<div>
+													<div class="name">Габаритные размеры внешнего блока, мм</div>
+													<div class="val">715*420*284</div>
+												</div>
+
+												<div>
+													<div class="name">Габаритные размеры внутреннего блока, мм</div>
+													<div class="val">754*315*600</div>
+												</div>
+											</div>
+
+											<div class="buy">
+												<div class="price">50 235 ₽</div>
+
+												<div class="amount">
+													<button type="button" class="minus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+													</button>
+
+													<input type="text" value="1" class="input"
+													  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+													<button type="button" class="plus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+													</button>
+												</div>
+
+												<button class="compare_btn modal_btn" data-content="#compare_modal">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+													<span>Добавить к<br> сравнению</span>
+												</button>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="product">
+										<a href="/" class="thumb">
+											<img data-src="images/tmp/product_thumb.png" alt="" class="lozad">
+										</a>
+
+										<div class="info">
+											<div class="product_name">
+												<a href="/">CM105-S</a>
+											</div>
+
+											<div class="features">
+												<div>
+													<div class="name">Габаритные размеры внешнего блока, мм</div>
+													<div class="val">715*420*284</div>
+												</div>
+
+												<div>
+													<div class="name">Габаритные размеры внутреннего блока, мм</div>
+													<div class="val">754*315*600</div>
+												</div>
+											</div>
+
+											<div class="buy">
+												<div class="price">50 235 ₽</div>
+
+												<div class="amount">
+													<button type="button" class="minus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+													</button>
+
+													<input type="text" value="1" class="input"
+													  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+													<button type="button" class="plus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+													</button>
+												</div>
+
+												<button class="compare_btn modal_btn" data-content="#compare_modal">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+													<span>Добавить к<br> сравнению</span>
+												</button>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="product">
+										<a href="/" class="thumb">
+											<img data-src="images/tmp/product_thumb.png" alt="" class="lozad">
+										</a>
+
+										<div class="info">
+											<div class="product_name">
+												<a href="/">CM105-S</a>
+											</div>
+
+											<div class="features">
+												<div>
+													<div class="name">Габаритные размеры внешнего блока, мм</div>
+													<div class="val">715*420*284</div>
+												</div>
+
+												<div>
+													<div class="name">Габаритные размеры внутреннего блока, мм</div>
+													<div class="val">754*315*600</div>
+												</div>
+											</div>
+
+											<div class="buy">
+												<div class="price">50 235 ₽</div>
+
+												<div class="amount">
+													<button type="button" class="minus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+													</button>
+
+													<input type="text" value="1" class="input"
+													  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+													<button type="button" class="plus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+													</button>
+												</div>
+
+												<button class="compare_btn modal_btn" data-content="#compare_modal">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+													<span>Добавить к<br> сравнению</span>
+												</button>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="product">
+										<a href="/" class="thumb">
+											<img data-src="images/tmp/product_thumb.png" alt="" class="lozad">
+										</a>
+
+										<div class="info">
+											<div class="product_name">
+												<a href="/">CM105-S</a>
+											</div>
+
+											<div class="features">
+												<div>
+													<div class="name">Габаритные размеры внешнего блока, мм</div>
+													<div class="val">715*420*284</div>
+												</div>
+
+												<div>
+													<div class="name">Габаритные размеры внутреннего блока, мм</div>
+													<div class="val">754*315*600</div>
+												</div>
+											</div>
+
+											<div class="buy">
+												<div class="price">50 235 ₽</div>
+
+												<div class="amount">
+													<button type="button" class="minus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+													</button>
+
+													<input type="text" value="1" class="input"
+													  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+													<button type="button" class="plus">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+													</button>
+												</div>
+
+												<button class="compare_btn modal_btn" data-content="#compare_modal">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+													<span>Добавить к<br> сравнению</span>
+												</button>
+
+												<button class="buy_btn">В корзину</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="articles block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">Новости</div>
+						</div>
+
+						<div class="swiper-container">
+							<div class="swiper-wrapper row">
+								<div class="slide swiper-slide">
+									<div class="article">
+										<a href="/" class="thumb">
+											<img data-src="images/tmp/article_thumb.jpg" alt="" class="lozad">
+										</a>
+
+										<div class="info">
+											<div class="name">
+												<a href="/">POLAIR GROUP представляет уникальную цифровую технологию удаленного управления и мониторинга</a>
+											</div>
+
+											<div class="desc text_block">
+												<p>POLAIR GROUP представляет вашему вниманию уникальную разработку — систему удаленного мониторинга и управления холодильным оборудованием с подключением к Интернету.</p>
+											</div>
+
+											<div class="date">13.10.2021</div>
+
+											<a href="/" class="link">Подробнее</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="slide swiper-slide">
+									<div class="article">
+										<a href="/" class="thumb">
+											<img data-src="images/tmp/article_thumb.jpg" alt="" class="lozad">
+										</a>
+
+										<div class="info">
+											<div class="name">
+												<a href="/">POLAIR GROUP представляет уникальную цифровую технологию удаленного управления и мониторинга</a>
+											</div>
+
+											<div class="desc text_block">
+												<p>POLAIR GROUP представляет вашему вниманию уникальную разработку — систему удаленного мониторинга и управления холодильным оборудованием с подключением к Интернету.</p>
+											</div>
+
+											<div class="date">13.10.2021</div>
+
+											<a href="/" class="link">Подробнее</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="slide swiper-slide">
+									<div class="article">
+										<a href="/" class="thumb">
+											<img data-src="images/tmp/article_thumb.jpg" alt="" class="lozad">
+										</a>
+
+										<div class="info">
+											<div class="name">
+												<a href="/">POLAIR GROUP представляет уникальную цифровую технологию удаленного управления и мониторинга</a>
+											</div>
+
+											<div class="desc text_block">
+												<p>POLAIR GROUP представляет вашему вниманию уникальную разработку — систему удаленного мониторинга и управления холодильным оборудованием с подключением к Интернету.</p>
+											</div>
+
+											<div class="date">13.10.2021</div>
+
+											<a href="/" class="link">Подробнее</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+
+							<div class="swiper-pagination"></div>
+						</div>
+
+						<div class="all_link">
+							<a href="/">Все новости</a>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="block">
+					<div class="cont">
+						<div class="text_block">
+							<div class="columns">
+								<p>Торговая марка POLAIR — это широкий ассортимент высококачественного профессионального холодильного оборудования: среднетемпературные, универсальные и низкотемпературные холодильные шкафы (как из нержавеющей стали, так и из оцинкованной стали с полимерным покрытием), быстромонтируемые холодильные камеры из сэндвич-панелей, моноблочные холодильные машины и сплит-системы, морозильные лари с раздвижными стеклянными или глухими крышками, холодильные столы.</p>
+
+								<p>Торговое холодильное оборудование TM POLAIR используется как для оснащения магазинов всех форматов и форм торговли, так и для предприятий общественного питания.</p>
+
+								<p>Торговая марка POLAIR известна в России и СНГс 1990 года. И сегодня POLAIR - это проверенные временем европейские технологии от российского производителя. Это бренд, который является гарантом надежности для профессионалов. Полное соответствие заявленным техническим характеристикам, 100% сквозной контроль качества, экологичные технологии производства определяют высокие стандарты качества продукции POLAIR.</p>
+
+								<p>Вы можете заказать продукт с особыми техническими характеристиками, присущими специфике и характеру Вашего бизнеса — мы с удовольствие изготовим эксклюзивные модификации оборудования, которые станут неотъемлемой составляющей Вашего успеха.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="reviews block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">Отзывы</div>
+						</div>
+
+						<div class="swiper-container">
+							<div class="swiper-wrapper row">
+								<div class="slide swiper-slide">
+									<div class="review">
+										<div class="name">Благотворительный фонд "Шередарь"</div>
+
+										<div class="text_block">
+											<p>Благотворительный фонд реабилитации детей, перенёсших тяжелые заболевания "Шередарь" выражает благодарность генеральному директору ОАО "ПОЛАИР" Ковальчуку Алексею Константиновичу за предоставленное холодильное оборудование POLAIR по льготной цене для оснащения реабилитационного центра "Шередарь". Спасибо, что помогаете нам помогать!</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="slide swiper-slide">
+									<div class="review">
+										<div class="name">ВК "Красноярская ярмарка"</div>
+
+										<div class="text_block">
+											<p>Дипломом награждается ОАО "ПОЛАИР" за производство и продвижение на рынок Красноярского края высокотехнологичного холодильного шкафа DM104c-Bravo.</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="slide swiper-slide">
+									<div class="review">
+										<div class="name">Директор ГБОУ НПО ИСИЛ Куричкис И.В.</div>
+
+										<div class="text_block">
+											<p>Индустриально-судостроительный лицей для сирот и детей, оставшихся без попечения родителей, сердечно и искренне благодарит компанию ОАО "ПОЛАИР" и лично генерального директора Ковальчука Алексея Константиновича за оказанную помощь нашим детям.<br> Наши воспитанники искренне верят, что Ваша помощь и поддержка принесет им удачу!</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="col_left">
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+							<div class="name">Официальный интернет-<br>магазин</div>
+						</div>
+
+						<div class="contacts">
+							<div class="location">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+								<span>119530, г. Москва,<br> Очаковское шоссе, д.32</span>
+							</div>
+
+							<div class="time">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_time"></use></svg>
+								<span>Пн..Пт: 9.00-18.00</span>
+							</div>
+
+							<div class="email">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+								<a href="mailto:sales@polair-shop.ru">sales@polair-shop.ru</a>
+							</div>
+
+							<div class="phone">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+								<a href="tel:+7 800 301 33 65">+7 800 301 33 65</a>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="links">
+						<div class="title">Каталог</div>
+
+						<div class="items">
+							<div><a href="/"><b>Холодильные шкафы</b></a></div>
+							<div><a href="/"><b>Холодильные шкафы фармацевтические</b></a></div>
+							<div><a href="/"><b>Холодильные столы</b></a></div>
+							<div><a href="/"><b>Тепловое оборудование</b></a></div>
+							<div><a href="/"><b>Холодильные машины</b></a></div>
+							<div><a href="/"><b>Холодильные камеры</b></a></div>
+							<div><a href="/"><b>Морозильные лари</b></a></div>
+							<div><a href="/"><b>Магазиностроение</b></a></div>
+							<div><a href="/"><b>Камеры шоковой заморозки</b></a></div>
+							<div><a href="/"><b>Шкафы шоковой заморозки</b></a></div>
+							<div><a href="/"><b>Запчасти</b></a></div>
+						</div>
+					</div>
+
+
+					<div class="links">
+						<div class="title">Информация</div>
+
+						<div class="items">
+							<div><a href="/">Новости</a></div>
+							<div><a href="/">Статьи</a></div>
+							<div><a href="/">Продукция</a></div>
+							<div><a href="/">Доставка и оплата</a></div>
+							<div><a href="/">О компании</a></div>
+							<div><a href="/">Контакты</a></div>
+						</div>
+					</div>
+
+
+					<div class="col">
+						<button class="callback_btn modal_btn" data-content="#callback_modal">Заказать звонок</button>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="youtube_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="facebook_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+							</a>
+						</div>
+					</div>
+
+
+					<div class="col_right">
+						<div class="text_block">
+							<p>Цены указаны для центрального региона.</p>
+
+							<p>Вся информация на сайте о товарах носит справочный характер и не является публичной офертой в соответствии с пунктом 2 статьи 437 ГК РФ.</p>
+
+							<p>Для получения подробной информации о наличии и стоимости указанных товаров и (или) услуг, пожалуйста, обращайтесь к менеджеру сайта по телефону</p>
+
+							<p>При использовании материалов сайта ссылка обязательна.</p>
+						</div>
+
+						<div class="privacy_policy_link">
+							<a href="/">Политика конфиденциальности</a>
+						</div>
+
+						<div class="creator">
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<img src="images/creator_logo.png" alt="">
+								<span>Продвижение сайта</span>
+							</a>
+						</div>
+
+						<div class="copyright">2021 г. &copy; ООО «РТ- ГРУПП»</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<section class="mob_fixed_panel">
+				<a class="active">
+					<div class="icon">
+						<svg><use xlink:href="images/sprite.svg#ic_fixed_panel1"></use></svg>
+					</div>
+					<div>Главная</div>
+				</a>
+
+				<button class="catalog_btn">
+					<div class="icon">
+						<svg><use xlink:href="images/sprite.svg#ic_fixed_panel2"></use></svg>
+					</div>
+					<div>Каталог</div>
+				</button>
+
+				<button class="menu_btn">
+					<div class="icon">
+						<svg><use xlink:href="images/sprite.svg#ic_fixed_panel3"></use></svg>
+					</div>
+					<div>Меню</div>
+				</button>
+
+				<a href="/">
+					<div class="icon">
+						<svg><use xlink:href="images/sprite.svg#ic_fixed_panel4"></use></svg>
+					</div>
+					<div>Корзина</div>
+				</a>
+
+				<a href="/">
+					<div class="icon">
+						<svg><use xlink:href="images/sprite.svg#ic_fixed_panel5"></use></svg>
+					</div>
+					<div>Профиль</div>
+				</a>
+			</section>
+
+
+			<section class="mob_catalog">
+				<div class="cont">
+					<div class="category">
+						<a href="/" class="main">
+							<div class="icon">
+								<img src="images/ic_category1.png" alt="">
+							</div>
+
+							<div class="name">Холодильные шкафы</div>
+						</a>
+
+						<button class="spoler_btn">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_spoler_arrow"></use></svg>
+						</button>
+
+						<div class="sub">
+							<div><a href="/">Холодильные шкафы с металлической дверью</a></div>
+							<div><a href="/">Холодильные шкафы из нержавеющей стали</a></div>
+							<div><a href="/">Холодильные шкафы cо стеклянными дверьми</a></div>
+							<div><a href="/">Холодильные шкафы для вина</a></div>
+							<div><a href="/">Специализированные</a></div>
+							<div><a href="/">Холодильные шкафы для напитков</a></div>
+						</div>
+					</div>
+
+					<div class="category">
+						<a href="/" class="main">
+							<div class="icon">
+								<img src="images/ic_category2.png" alt="">
+							</div>
+
+							<div class="name">Холодильные шкафы фармацевтические</div>
+						</a>
+					</div>
+
+					<div class="category">
+						<a href="/" class="main">
+							<div class="icon">
+								<img src="images/ic_category3.png" alt="">
+							</div>
+
+							<div class="name">Холодильные столы</div>
+						</a>
+
+						<button class="spoler_btn">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_spoler_arrow"></use></svg>
+						</button>
+
+						<div class="sub">
+							<div><a href="/">Среднетемпературные холодильные шкафы</a></div>
+							<div><a href="/">Столы морозильные</a></div>
+							<div><a href="/">Со стеклянными дверьми</a></div>
+							<div><a href="/">Для приготовления пиццы</a></div>
+							<div><a href="/">С выдвижными ящиками</a></div>
+							<div><a href="/">Настольные витрины</a></div>
+							<div><a href="/">С охлаждаемой столешницей</a></div>
+							<div><a href="/">Саладетты холодильные</a></div>
+						</div>
+					</div>
+
+					<div class="category">
+						<a href="/" class="main">
+							<div class="icon">
+								<img src="images/ic_category4.png" alt="">
+							</div>
+
+							<div class="name">Тепловое оборудование</div>
+						</a>
+
+						<button class="spoler_btn">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_spoler_arrow"></use></svg>
+						</button>
+
+						<div class="sub">
+							<div><a href="/">Chekhov пекарская линия</a></div>
+							<div><a href="/">Gogol линия конвекционных печей</a></div>
+							<div><a href="/">Pushkin линия расстоечных шкафов</a></div>
+							<div><a href="/">Tolstoy гастрономическая линия</a></div>
+							<div><a href="/">Аксессуары</a></div>
+							<div><a href="/">Скрытые</a></div>
+						</div>
+					</div>
+
+					<div class="category">
+						<a href="/" class="main">
+							<div class="icon">
+								<img src="images/ic_category5.png" alt="">
+							</div>
+
+							<div class="name">Холодильные машины</div>
+						</a>
+
+						<button class="spoler_btn">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_spoler_arrow"></use></svg>
+						</button>
+
+						<div class="sub">
+							<div><a href="/">Моноблоки</a></div>
+							<div><a href="/">Моноблоки ранцевые</a></div>
+							<div><a href="/">Моноблоки потолочные</a></div>
+							<div><a href="/">Би-Блоки</a></div>
+							<div><a href="/">Компрессорно-конденсаторные агрегаты</a></div>
+							<div><a href="/">Сплит-системы</a></div>
+							<div><a href="/">Воздухоохладители</a></div>
+							<div><a href="/">Дополнительное оборудование</a></div>
+						</div>
+					</div>
+
+					<div class="category">
+						<a href="/" class="main">
+							<div class="icon">
+								<img src="images/ic_category6.png" alt="">
+							</div>
+
+							<div class="name">Холодильные камеры</div>
+						</a>
+
+						<button class="spoler_btn">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_spoler_arrow"></use></svg>
+						</button>
+
+						<div class="sub">
+							<div><a href="/">POLAIR Standard</a></div>
+							<div><a href="/">Minicella</a></div>
+							<div><a href="/">Модульные стеллажные системы</a></div>
+							<div><a href="/">Двери для холодильных камер</a></div>
+							<div><a href="/">Дополнительное оборудование</a></div>
+						</div>
+					</div>
+
+					<div class="category">
+						<a href="/" class="main">
+							<div class="icon">
+								<img src="images/ic_category7.png" alt="">
+							</div>
+
+							<div class="name">Морозильные лари</div>
+						</a>
+
+						<button class="spoler_btn">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_spoler_arrow"></use></svg>
+						</button>
+
+						<div class="sub">
+							<div><a href="/">POLAIR Standard с плоскими стеклами</a></div>
+							<div><a href="/">POLAIR Standard с изогнутыми стеклами</a></div>
+							<div><a href="/">POLAIR Standard с глухими крышками</a></div>
+						</div>
+					</div>
+
+					<div class="category">
+						<a href="/" class="main">
+							<div class="icon">
+								<img src="images/ic_category8.png" alt="">
+							</div>
+
+							<div class="name">Магазиностроение</div>
+						</a>
+
+						<button class="spoler_btn">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_spoler_arrow"></use></svg>
+						</button>
+
+						<div class="sub">
+							<div><a href="/">Бонеты морозильные</a></div>
+							<div><a href="/">Пристенные морозильные стеллажи</a></div>
+							<div><a href="/">Пристенные охлаждаемые стеллажи STRETTO Plug-In</a></div>
+						</div>
+					</div>
+
+					<div class="category">
+						<a href="/" class="main">
+							<div class="icon">
+								<img src="images/ic_category9.png" alt="">
+							</div>
+
+							<div class="name">Камеры шоковой заморозки</div>
+						</a>
+					</div>
+
+					<div class="category">
+						<a href="/" class="main">
+							<div class="icon">
+								<img src="images/ic_category10.png" alt="">
+							</div>
+
+							<div class="name">Шкафы шоковой заморозки</div>
+						</a>
+					</div>
+
+					<div class="category">
+						<a href="/" class="main">
+							<div class="icon">
+								<img src="images/ic_category11.png" alt="">
+							</div>
+
+							<div class="name">Запчасти</div>
+						</a>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="mob_menu">
+				<div class="cont">
+					<div><a href="/">Каталог</a></div>
+					<div><a href="/">Новости</a></div>
+					<div><a href="/">Статьи</a></div>
+					<div><a href="/">Доставка и оплата</a></div>
+					<div><a href="/">О компании</a></div>
+					<div><a href="/">Контакты</a></div>
+				</div>
+			</section>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="modal_title big">Заказать звонок</div>
+
+			<div class="modal_data">
+				<form action="" class="form">
+					<div class="columns">
+						<div class="line">
+							<div class="label">ФИО:</div>
+
+							<div class="field">
+								<input type="text" name="" value="" class="input" placeholder="">
+							</div>
+						</div>
+
+						<div class="line">
+							<div class="label">Телефон:</div>
+
+							<div class="field">
+								<input type="tel" name="" value="" class="input" placeholder="">
+							</div>
+						</div>
+					</div>
+
+					<div class="submit">
+						<button type="submit" class="submit_btn">Заказать звонок</button>
+
+						<div class="agree">
+							Нажимая на кнопку "Отправить", я даю<br> <a href="/" target="_blank">согласие на обработку персональных данных</a>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+
+
+		<section class="modal" id="compare_modal">
+			<div class="modal_title big">Добавить в сравнение</div>
+
+			<div class="btns">
+				<button class="btn close_btn">Продолжить просмотор каталога</button>
+
+				<a href="/" class="btn compare_link">Перейти в сравнение</a>
+			</div>
+		</section>
+
+
+		<section class="modal success_modal" id="callback_success_modal">
+			<div class="title">Наши менеджеры свяжутся<br> с вами в ближайшее время</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/ion.rangeSlider.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

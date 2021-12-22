@@ -1,0 +1,168 @@
+@media print, (max-width: 1567px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .swiper-button-next
+    {
+        right: 0;
+
+        margin-right: 0;
+    }
+
+    .swiper-button-prev
+    {
+        left: 0;
+
+        margin-left: 0;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .links > * + *
+    {
+        margin-left: 40px;
+    }
+
+
+
+    header .menu .mini_modal
+    {
+        padding: 22px;
+    }
+
+
+    header .menu .category .main
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    header .menu .category .sub
+    {
+        line-height: 18px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .slide .info
+    {
+        width: 548px;
+        padding-left: 80px;
+    }
+
+
+    .main_slider .swiper-button-prev
+    {
+        left: 0;
+    }
+
+    .main_slider .swiper-button-next
+    {
+        right: 0;
+    }
+
+
+
+    /*----------------
+        Error info
+    ----------------*/
+    .error_info
+    {
+        margin-top: 0;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .swiper-container
+    {
+        padding: 0 60px;
+    }
+
+
+
+    /*---------------
+        Cart info
+    ---------------*/
+    .cart_info .delete
+    {
+        width: 112px;
+        min-width: 112px;
+    }
+
+    .cart_info .price
+    {
+        width: 200px;
+        min-width: 200px;
+    }
+
+    .cart_info .amount
+    {
+        width: 140px;
+        min-width: 140px;
+    }
+
+    .cart_info .price.total
+    {
+        width: 240px;
+        min-width: 240px;
+    }
+
+
+
+    /*----------------------
+        Selection tables
+    ----------------------*/
+    .selection_tables .form
+    {
+        width: calc(100% - 400px);
+    }
+
+
+    .selection_tables .product
+    {
+        width: 400px;
+    }
+
+    .selection_tables .product .thumb
+    {
+        height: 234px;
+    }
+
+    .selection_tables .product .features .name
+    {
+        width: calc(100% - 120px);
+    }
+
+    .selection_tables .product .features .val
+    {
+        width: 120px;
+    }
+}
