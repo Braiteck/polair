@@ -148,6 +148,22 @@
     }
 
 
+    .form .submit_btn
+    {
+        font-size: 10px;
+        font-weight: bold;
+        line-height: 28px;
+
+        height: 32px;
+    }
+
+
+    .form .recovery_link
+    {
+        margin-left: auto;
+    }
+
+
 
     /*----------------
         Typography
@@ -399,15 +415,44 @@
     }
 
 
+    .articles .list
+    {
+        width: calc(100% + 20px);
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+
+    .articles .list .article
+    {
+        box-shadow: 6px 6px 10px rgba(103, 103, 103, .25);
+    }
+
     .articles .list .article .thumb
     {
         min-height: 100px;
     }
 
+    .articles .list .article .info
+    {
+        padding: 0 10px 20px;
+    }
+
+
     .articles .article .name
     {
         font-size: 16px;
         line-height: 24px;
+    }
+
+    .articles .article .link
+    {
+        font-size: 10px;
+        font-weight: bold;
+        line-height: 30px;
+
+        height: 32px;
+        margin-top: 15px;
+        padding: 0 20px 12;
     }
 
 
@@ -817,6 +862,24 @@
     }
 
 
+    .checkout_info .steps .btns
+    {
+        padding-right: 20px;
+        padding-left: 0;
+    }
+
+
+    .checkout_info .steps .auth .register_form .agree
+    {
+        width: 179px;
+    }
+
+    .checkout_info .steps .auth .register_form .agree br
+    {
+        display: none;
+    }
+
+
 
     /*------------------
         Product info
@@ -890,6 +953,12 @@
     /*---------------------
         Product reviews
     ---------------------*/
+    .product_reviews .block_head
+    {
+        margin-bottom: 15px;
+    }
+
+
     .product_reviews .add_review_btn
     {
         font-size: 10px;
@@ -901,7 +970,16 @@
 
     .product_reviews .swiper-container
     {
+        width: calc(100% + 20px);
+        margin-right: -10px;
+        margin-left: -10px;
         padding: 0;
+    }
+
+
+    .product_reviews .review
+    {
+        padding: 10px;
     }
 
 
@@ -977,24 +1055,52 @@
     /*---------------
         Prev/Next
     ---------------*/
+    .prev_next .cont
+    {
+        padding: 0 10px;
+    }
+
+
+    .prev_next a
+    {
+        max-width: calc(50% - 2px);
+    }
+
     .prev_next a.prev .info,
     .prev_next a.next .info
     {
-        padding: 11px;
+        display: flex;
+        flex-direction: column;
+
+        padding: 4px;
+
+        align-items: flex-start;
+        align-content: flex-start;
     }
 
     .prev_next a .name
     {
-        font-size: 11px;
-        line-height: 15px;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 17px;
+
+        flex: 1 0 auto;
+    }
+
+    .prev_next a .name:after
+    {
+        margin-top: 3px;
     }
 
     .prev_next a .btn
     {
-        line-height: 28px;
+        font-size: 10px;
+        font-weight: bold;
+        line-height: 30px;
 
-        height: 28px;
-        margin-top: 20px;
+        height: 32px;
+        margin-top: 15px;
+        padding: 0 20px;
     }
 
 
@@ -1004,8 +1110,13 @@
     ----------------------*/
     .related_articles .block_title
     {
-        font-size: 17px;
-        line-height: 21px;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 18px;
+
+        margin-bottom: 15px;
+
+        text-align: left;
     }
 
 
@@ -1021,17 +1132,28 @@
     }
 
 
+    .related_articles .article .btn
+    {
+        font-size: 10px;
+        font-weight: bold;
+        line-height: 30px;
+
+        height: 32px;
+        padding: 0 20px;
+    }
+
+
 
     /*--------------
         Comments
     --------------*/
     .comments .add_comment
     {
-        width: calc(100% + 40px);
-        margin-right: -20px;
-        margin-left: -20px;
-        padding-right: 20px;
-        padding-left: 20px;
+        width: calc(100% + 20px);
+        margin-right: -10px;
+        margin-left: -10px;
+        padding-right: 10px;
+        padding-left: 10px;
     }
 
 

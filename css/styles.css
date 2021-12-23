@@ -854,7 +854,8 @@ button
 
     display: none;
 
-    margin-bottom: 20px;
+    width: calc(100% + 20px);
+    margin: 0 -10px 20px;
 }
 
 
@@ -886,7 +887,7 @@ button
     overflow: hidden;
 
     height: 60px;
-    padding: 0 52px 0 10px;
+    padding: 0 34px 0 10px;
 
     cursor: pointer;
     transition: .2s linear;
@@ -909,39 +910,43 @@ button
     overflow: hidden;
 
     min-width: 100%;
-    padding: 52px 0 8px;
+    padding: 60px 0 0;
 
     transition: .2s linear;
 
     opacity: 0;
     border-radius: 30px;
-    background: #fd810d;
-}
-
-
-.mob_tabs .nice-select .list .scrollbar
-{
-    overflow: auto;
-
-    max-height: 240px;
+    background: #f3f9ff;
 }
 
 
 .mob_tabs .nice-select .list .list_item
 {
-    color: #fff;
+    color: #4e4f50;
     font-size: 12px;
     font-weight: 800;
     line-height: 20px;
 
-    padding: 8px 10px;
+    padding: 20px 10px;
 
     cursor: pointer;
+    text-align: center;
 }
 
-.mob_tabs .nice-select .list .list_item:empty
+.mob_tabs .nice-select .list .list_item + .list_item
+{
+    border-top: 1px solid #b9b9b9;
+}
+
+.mob_tabs .nice-select .list .list_item:empty,
+.mob_tabs .nice-select .list .list_item.selected
 {
     display: none;
+}
+
+.mob_tabs .nice-select .list .list_item:first-child.selected + .list_item
+{
+    border-color: transparent;
 }
 
 
@@ -1535,6 +1540,7 @@ header .cart_link
 
     display: flex;
 
+    min-width: 163px;
     margin-left: 37px;
 
     transition: border-color .2s linear;
@@ -1543,7 +1549,7 @@ header .cart_link
     border: 1px solid transparent;
     border-radius: 15px;
 
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
@@ -4206,6 +4212,7 @@ aside .checkout_submit_btn:hover
     text-align: right;
 }
 
+
 .program_selection a
 {
     color: #fff;
@@ -4215,13 +4222,22 @@ aside .checkout_submit_btn:hover
 
     display: inline-block;
 
-    padding: 10px 20px;
+    padding: 9px 19px;
 
+    transition: .2s linear;
     vertical-align: top;
     text-decoration: none;
 
+    border: 1px solid #1485ce;
     border-radius: 20px;
     background: #1485ce;
+}
+
+.program_selection a:hover
+{
+    color: #1485ce;
+
+    background: transparent;
 }
 
 
@@ -4414,8 +4430,14 @@ aside .checkout_submit_btn:hover
 {
     color: #005ba6;
 
+    transition: color .2s linear;
     white-space: nowrap;
     text-decoration: none;
+}
+
+.contacts_info .data .item .val a:hover
+{
+    color: #fd810d;
 }
 
 .contacts_info .data .item .val > * + *
@@ -5482,8 +5504,14 @@ aside .checkout_submit_btn:hover
 
     display: inline-block;
 
+    transition: color .2s linear;
     vertical-align: top;
     text-decoration: none;
+}
+
+.cart_info .product .name a:hover
+{
+    color: #fd810d;
 }
 
 .cart_info .product .desc
@@ -6462,7 +6490,13 @@ aside .checkout_submit_btn:hover
     display: block;
 
     cursor: pointer;
+    transition: color .2s linear;
     text-decoration: none;
+}
+
+.checkout_info .steps .location .tips .tip:hover
+{
+    color: #fd810d;
 }
 
 

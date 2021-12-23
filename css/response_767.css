@@ -714,9 +714,12 @@
     /*--------------
         Products
     --------------*/
+    .products .row,
     .content .products .row
     {
-        margin-left: 0;
+        width: calc(100% + 20px);
+        margin-right: -10px;
+        margin-left: -10px;
 
         --products_count: 1;
     }
