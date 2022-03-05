@@ -599,6 +599,10 @@ $(window).on('load', () => {
 		if ($(window).width() < 1024) articlesSliderInit()
 	}
 
+	$('.articles .row').each(function () {
+		articleHeight($(this), parseInt($(this).css('--articles_count')))
+	})
+
 
 	// Отзывы
 	if ($('.reviews .swiper-container').length) {
@@ -644,6 +648,10 @@ $(window).on('resize', () => {
 				? articlesSliderInit()
 				: articlesSliderDestroy()
 		}
+
+		$('.articles .row').each(function () {
+			articleHeight($(this), parseInt($(this).css('--articles_count')))
+		})
 
 
 		// Отзывы
@@ -724,6 +732,24 @@ function reviewHeight(context, step) {
 
 	$reviews.each(() => {
 		setHeight($reviews.slice(start, finish))
+
+		start = start + step
+		finish = finish + step
+	})
+}
+
+
+// Выравнивание статей
+function articleHeight(context, step) {
+	let start = 0,
+		finish = step,
+		$articles = context.find('.article')
+
+	$articles.find('.name, .desc').height('auto')
+
+	$articles.each(function () {
+		setHeight($articles.slice(start, finish).find('.name'))
+		setHeight($articles.slice(start, finish).find('.desc'))
 
 		start = start + step
 		finish = finish + step
@@ -872,3 +898,6 @@ const reviewsSliderDestroy = () => {
 	$('.reviews .swiper-wrapper, .reviews .swiper-slide').removeAttr('style')
 	$('.reviews .swiper-wrapper').addClass('row')
 }
+
+
+
